@@ -163,7 +163,7 @@ class YaDisk():
             if put_response.status_code == 202:
                 number_of_photos += int_foto_save
 
-        print(f"Ня яндекс диск в папку {folder} загружены фотографии236892205")
+        print(f"Ня яндекс диск в папку {folder} загружены фотографии")
 
     def load_file_yadisk(self, file_name):
         foto_file = file_name
